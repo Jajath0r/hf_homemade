@@ -7,7 +7,6 @@ import re
 import unicodedata
 from collections import defaultdict
 from difflib import SequenceMatcher
-from streamlit_extras.stylable_container import stylable_container
 
 # ---------- Config ----------
 DB_PATH = os.environ.get("HF_DB_PATH", "hellofresh.sqlite")
